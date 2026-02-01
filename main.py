@@ -6,3 +6,5 @@ print("hello world!")
 
 a =input("enter your name")
 print(a)
+name = input("Enter your namr")
+print(f"hello {name}")
