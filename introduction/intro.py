@@ -22,7 +22,7 @@ total_amount = 1111
 total_people = 5
 tip = 100
 
-paid = total_amount/total_people
-pay_per_person = paid + tip
+total = total_amount + tip
+pay_per_person = total/total_people
 
 print(f"each person pays: {pay_per_person}")
