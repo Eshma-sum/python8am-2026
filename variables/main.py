@@ -1,3 +1,11 @@
+# variacble = container that stores datas
+
+my_name = 'snakecase' # functions
+myName = 'camelcase' # variables
+MyName = 'pascalcase' # oop
+
+
+
 name = 'ram'
 print(name)
 
