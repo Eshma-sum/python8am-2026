@@ -1,0 +1,21 @@
+# def total(x):
+#     sum = 0
+#     for a in x:
+#         sum +=a
+#     print(f"sum:{sum}")
+
+# total([1,2,3,4,5])
+
+
+# optional parameter : always have regular parameter in the front and optional after that : def user(name="",age) is wrong
+
+# def user(name,age=0):
+#     print(name)
+#     print(age)
+# user("ram",25)
+
+# *args
+# **kargs
+
+# decorators 
+
