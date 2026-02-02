@@ -5,3 +5,10 @@
 # int() : used to convert a variable to integer
 # str() : used to convert a variable to string
 # float() : used to convert a variable to float
+
+# a = 5
+# print(type(a))
+
+x='5'
+y=7+int(x)
+print(y)
