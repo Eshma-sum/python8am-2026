@@ -17,5 +17,18 @@
 # *args
 # **kargs
 
-# decorators 
+# function scope: 
+# 1. local scope: inside the function, can only be accessed inside of the function.
+# 2. global scope: outside of function, can be accessed by any
 
+# global:
+# x=10
+# def info():
+#     print(x)
+# info()
+# local:
+# def info():
+#     x=10
+#     print(x)
+# print(x)   -> this wont work as the x variabl is local; inside the function
+# info()
