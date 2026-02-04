@@ -110,13 +110,14 @@
          # print("unsuccessful!")
 # print (login())
 
-
+# name =""
 # def message():
-#     return "admin"
-# name = input("enter username: ")
+#     global name
+#     name = input("enter username: ")
+#     return name
 
 # if name == message():
-#     print("success")
+#     print("welcome, admin!")
 # else:
 #     print("access denied")
 #     question = input("do u want to try again, yes/no: ")
@@ -126,6 +127,14 @@
 #         print("goodbye!!!!")
 
 
+
+
+
+
+data = ["ram","sita","gita","hari","shyam","ram","hari"]
+
+def search_name():
+    pass
 
 
 
