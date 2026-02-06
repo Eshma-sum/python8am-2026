@@ -1,3 +1,5 @@
+# function = reusable block of code
+
 # def total(x):
 #     sum = 0
 #     for a in x:
