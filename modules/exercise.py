@@ -63,6 +63,25 @@
 
 
 
-import datetime
+# import datetime
+# def display(jobs):
+#     jobtitle = input("enter the job: ")
+#     found = False
+#     # try:
+#     for job in jobs:
+#         if jobtitle == job['title']:
+#             found = True
+#             exp_date = datetime.datetime.strptime(job['exp_date'], "%Y-%m-%d")
+#             today = datetime.datetime.today()
+#             if exp_date > today:
+#                 print(f"job '{job['title']}' is available.")
+#             else:
+#                 print(f"job '{job['title']}'has expired.")
+#     if not found:
+#         print("job is not available")
 
-
+# display(jobs = [
+#     {'title':'python developer','exp_date':'2024-12-31'},
+#     {'title':'data scientist','exp_date':'2026-11-3'},
+#     {'title':'web developer','exp_date':'2024-1-15'}
+# ])
