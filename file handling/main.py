@@ -35,7 +35,23 @@
 
 
 
-obj = open("file handling/login.txt","w")
+obj = open("file handling/login.txt","r")
+# obj.write("employee,employee001 \n")
+username = input("Enter your Username: ")
+password = input("Enter your password: ")
+found = False
+for user in obj.readlines():
+    u,p = user.strip().split(",")
+    if username == u and password == p:
+        found = True
+    #     print("Login successfull")
+    # else:
+    #     print("Login unsuccessfull")
+if found:
+            print("Login successfull")
+else:
+        print("Login unsuccessfull")
+
 obj.close()
 
 
