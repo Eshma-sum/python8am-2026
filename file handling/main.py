@@ -55,5 +55,3 @@ else:
 obj.close()
 
 
-# regex
-# tkinter module
