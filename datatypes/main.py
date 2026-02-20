@@ -16,7 +16,29 @@ say  you have a = 4.567812 than you will get 4.57'''
 # a= 5j
 # print(type(a))
 
-b= 7+6J
+# b= 7+6J
 # here 7 is the real number and 6 is the imaginary number
-print(b.real)
-print(b.imag)
+# print(b.real) # gives 7.0
+# print(b.imag) # gives 6.0
+
+
+# x= 5
+# print(id(x))
+
+# x= 5
+# y=x
+# print(id(x))
+# print(id(y))
+
+# x= [1,2,3]
+# y= [1,2,3]
+# print(id(x))
+# print(id(y))
+
+# x= 'kusum'
+# y= 'kusum'
+# print(id(x))
+# print(id(y))
+
+
+
